@@ -1,7 +1,7 @@
 {
     "app-id": "net.sourceforge.audmes.audmes",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "AudMeS",
     "rename-icon": "audmes",
@@ -50,9 +50,9 @@
         {
             "name": "audmes",
             "buildsystem": "cmake-ninja",
-            "builddir": "true",
+            "builddir": true,
             "sources": [
-                    {
+                {
                     "type": "git",
                     "url": "https://git.code.sf.net/p/audmes/git",
                     "commit": "e8a71d3a229e6ea326ca8640579ffc7228580f1f"
